@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 85vh;
+  z-index: -1;
+}
+
+h1 {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+
+.users-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 72px;
+  padding: 36px;
+}
+
+.users-card {
+  border-radius: 5px;
+  width: 250px;
+  padding: 40px;
+  margin: 10px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #333;
+}
+
+.users-card:hover {
+  background-color: #00ff00;
+}

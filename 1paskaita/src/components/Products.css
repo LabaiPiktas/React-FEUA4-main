@@ -1,0 +1,30 @@
+
+  
+  .products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .productCard {
+    margin: 1rem;
+    width: 20rem;
+    border: 4px solid rgb(217, 217, 217);
+    border-radius: 5px;
+    padding: 40px;
+  }
+  
+  .productsTitle {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .category {
+    font-size: 0.9rem;
+    color: grey;
+  }
+  
+  .price {
+    font-weight: bold;
+  }

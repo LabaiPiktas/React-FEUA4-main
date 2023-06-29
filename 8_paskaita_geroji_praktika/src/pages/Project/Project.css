@@ -1,0 +1,13 @@
+.project-container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.project-container .people {
+  display: flex;
+  gap: 1rem;
+}
+.project-container img {
+  height: 300px;
+}
+.project-container span {
+  font-weight: 600;
+}/*# sourceMappingURL=Project.css.map */

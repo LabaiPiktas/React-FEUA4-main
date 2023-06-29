@@ -1,0 +1,45 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.projects .single-project {
+  width: 24%;
+}
+
+.project-card {
+  width: 400px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3rem;
+}
+.project-card .image-container {
+  height: 75%;
+}
+.project-card img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.project-card .title {
+  margin: 0;
+  padding: 1rem;
+  height: 25%;
+  font-size: 1.1rem;
+}
+
+.new-project-button {
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid #3f50b5;
+  border-radius: 5px;
+  background-color: #3f50b5;
+  color: #ffffff;
+}
+.new-project-button:hover {
+  cursor: pointer;
+  background-color: #002884;
+}/*# sourceMappingURL=Projects.css.map */

@@ -1,0 +1,30 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  .button-text {
+    color: blue;
+    background-color: transparent;
+  }
+  
+  .button-contained {
+    color: white;
+    background-color: blue;
+  }
+  
+  .button-outlined {
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+  }
+  
+
+  .button-container {
+    background-color: azure;
+    display: inline-flex;
+    padding: 30px;
+  }

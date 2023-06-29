@@ -1,0 +1,21 @@
+.home-container {
+  position: relative;
+}
+
+.centered-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  margin: 0;
+}
+
+.background-image {
+  width: 100vw;
+  height: 1080px;
+  object-fit: cover;
+}

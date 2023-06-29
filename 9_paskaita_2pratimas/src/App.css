@@ -1,0 +1,42 @@
+.avatar-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  width: 70vw; 
+  margin: 0 auto; 
+}
+
+
+.avatar-item {
+  text-align: center;
+}
+
+h1, p {
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.avatar-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .avatar-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .avatar-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .avatar-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

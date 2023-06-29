@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #cbbcbc;
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li:last-child {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 90px;
+  background-color: black;
+  color: white;
+}
+.navigation a {
+  color: inherit;
+}
+.navigation a.user-container {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.navigation-items {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}/*# sourceMappingURL=Topbar.css.map */

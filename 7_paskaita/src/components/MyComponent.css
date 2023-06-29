@@ -1,0 +1,42 @@
+.my-component {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-component input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .my-component button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .my-component button:hover {
+    background-color: #45a049;
+  }
+  
+  .my-component table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .my-component th, .my-component td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .my-component .error {
+    color: red;
+    margin-top: 10px;
+  }

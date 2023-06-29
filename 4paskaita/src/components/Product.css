@@ -1,0 +1,52 @@
+.product-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.content-container {
+  flex: 1 1 auto;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-container h3 {
+  margin: 0;
+}
+
+.title-container svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  padding: 6px 9px;
+}
+
+.quantity-controls p {
+  margin: 0;
+  border: 1px solid #000;
+  padding: 4px 8px;
+}
+
+.content-container p.price {
+  font-weight: bold;
+}

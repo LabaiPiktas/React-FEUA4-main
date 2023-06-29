@@ -1,0 +1,25 @@
+.card {
+    width: fit-content;
+    background-color: #ffffff;
+    border: 1px solid #837979;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #888888;
+  }
+  

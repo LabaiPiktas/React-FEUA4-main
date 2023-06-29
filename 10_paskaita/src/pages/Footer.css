@@ -1,0 +1,31 @@
+/* Styles for the footer section */
+footer {
+    background-color: #cbbcbc;
+    padding: 20px;
+  }
+     
+  /* Styles for the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav li a:hover {
+    color: #7a0f0f;
+  }
+  p {
+    text-align: center;
+    align-items: center;
+  }
+  

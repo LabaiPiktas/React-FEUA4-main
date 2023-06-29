@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+  font-family: 'Pacifico', cursive;
+}
+
+
+.hero {
+    position: relative; 
+  }
+  
+  
+  
+  .hero-text {
+    position: absolute; 
+    top: 10%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .hero-text-p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+   
+  }
+  
+  
